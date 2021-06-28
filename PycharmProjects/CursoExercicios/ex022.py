@@ -1,0 +1,8 @@
+NOME =str(input('Digite seu nome completo:'))
+print(NOME.upper())
+print(NOME.lower())
+Q = len(NOME)
+T = NOME.count(' ')
+print('Há um total de {} letras no seu nome completo'.format(Q-T))
+F = NOME.split()
+print('Seu primeiro nome tem {} letras'.format(len(F[0])))

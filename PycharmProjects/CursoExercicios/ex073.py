@@ -1,0 +1,15 @@
+TIMES = ('Flamengo', 'Inter', 'Atl. Min', 'SP', 'Flu', 'Gremio', 'Palmeiras', 'Santos',
+         'Atlhetico', 'Bragantino', 'Ceara', 'Corinthians', 'Atl. Go', 'Bahia', 'Sport', 'Fortaleza', 'Vasco', 'Goias',
+         'Coritiba', 'Botafogo')
+print('_'*40)
+print('Os times por ordem de colocação do brasileirão 2020 foi:')
+print(TIMES)
+print('_'*40)
+print(f'Os primeiros cinco colocados são: {TIMES[:5]}')
+print('_'*40)
+print(f'Os quatro últimos colocados são: {TIMES[-4:]}')
+print('_'*40)
+print(f'Os times por ordem alfabética do brasileirão 2020 foi: {sorted(TIMES)}')
+print('_'*40)
+print(f'O time do Bragantino ficou na {TIMES.index("Bragantino")+1}ª Posição')
+print('_'*40)
